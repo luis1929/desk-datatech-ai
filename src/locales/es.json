@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "industries": "Industrias",
+    "pillars": "Pilares",
+    "methodology": "Metodología",
+    "stack": "Stack",
+    "careers": "Talento",
+    "contact": "Contacto",
+    "cta": "Agendar llamada"
+  },
+  "hero": {
+    "badge": "Desarrollo de Software Empresarial a Medida",
+    "title1": "Software",
+    "title2": "empresarial",
+    "title3": "a medida que transforma tu operación",
+    "subtitle": "Arquitecturas escalables, integraciones seguras y soluciones diseñadas para optimizar procesos y acelerar el crecimiento de tu empresa.",
+    "ctaPrimary": "Iniciar proyecto",
+    "ctaSecondary": "Ver metodología",
+    "stats": {
+      "projects": "Proyectos entregados",
+      "sprints": "Demos quincenales",
+      "golive": "Días para tu MVP",
+      "industries": "Industrias"
+    },
+    "pillars": [
+      "Arquitectura orientada al negocio",
+      "Seguridad y gobernanza",
+      "DevOps y entrega continua",
+      "Calidad y mantenibilidad"
+    ]
+  },
+  "trust": {
+    "label": "Soluciones para industrias que exigen rigor"
+  },
+  "industries": {
+    "kicker": "Industrias",
+    "title": "Desarrollo de software por industria",
+    "subtitle": "Sistemas a medida según complejidad operativa, regulación y stack existente — no plantillas genéricas por sector.",
+    "items": [
+      { "id": "manufactura", "title": "Manufactura", "desc": "Trazabilidad de producción, control de inventario y planeación de recursos que alinean planta con oficina." },
+      { "id": "logistica", "title": "Logística", "desc": "Gestión de rutas, operadores y almacenes con visibilidad en tiempo real de cada eslabón de la cadena." },
+      { "id": "b2b", "title": "B2B", "desc": "Portales de comercio mayorista, ordenes y facturación que reducen fricción entre proveedor y cliente." },
+      { "id": "salud", "title": "Salud", "desc": "Sistemas con trazabilidad clínica, permisos granulares y cumplimiento de normativa de datos sensibles." },
+      { "id": "fintech", "title": "Fintech", "desc": "Módulos de cobranza, conciliación y reportes financieros auditables con seguridad de grado bancario." },
+      { "id": "retail-b2b", "title": "Retail B2B", "desc": "Catálogos, precios por cliente y reposiciones automáticas para la operación mayorista." }
+    ]
+  },
+  "services": {
+    "kicker": "Lo Que Hacemos",
+    "title": "Inteligencia Artificial y Soluciones Empresariales",
+    "subtitle": "Desde chatbots contextuales sin código y analítica predictiva de IA hasta sistemas core empresariales.",
+    "aiCategory": "Inteligencia Artificial y Analítica",
+    "softwareCategory": "Software Empresarial a Medida",
+    "items": [
+      {
+        "id": "chatbot",
+        "category": "ai",
+        "title": "Chatbots e IA Conversacional",
+        "desc": "Desarrollamos una plataforma para crear chatbots contextuales de forma rápida y sin código. Asimismo, construimos chatbots 100% personalizados según las necesidades específicas de tu negocio.",
+        "highlight": "Plataforma sin código e integración a medida"
+      },
+      {
+        "id": "ai",
+        "category": "ai",
+        "title": "Inteligencia Artificial y Ciencia de Datos",
+        "desc": "Somos expertos en Machine Learning, Deep Learning y Procesamiento de Lenguaje Natural (NLP). Desarrollamos ciencia de datos y analítica para generar insights, predicciones y recomendaciones competitivas.",
+        "highlight": "Machine Learning, Deep Learning y NLP"
+      },
+      {
+        "id": "social-listening",
+        "category": "ai",
+        "title": "Escucha Social e Inteligencia de Tendencias",
+        "desc": "Con el respaldo de nuestra librería de lenguaje propia, nuestra herramienta escucha la conversación pública, detecta tendencias, previene crisis de RP y monitorea la actividad y precios de la competencia.",
+        "highlight": "Librería NLP propia y alertas de crisis de RP"
+      },
+      {
+        "id": "image-processing",
+        "category": "ai",
+        "title": "Procesamiento de Imágenes y Documentos",
+        "desc": "Capacidades avanzadas de visión artificial para procesar imágenes y documentos, ejecutando tareas como reconocimiento facial y conteo de personas para la toma de decisiones informadas.",
+        "highlight": "Reconocimiento facial y visión por computadora"
+      },
+      {
+        "id": "portales-b2b",
+        "category": "software",
+        "title": "Portales B2B con Trazabilidad",
+        "desc": "Portales de clientes con órdenes, facturación, historial y trazabilidad completa del ciclo comercial.",
+        "highlight": "Trazabilidad comercial punta a punta"
+      },
+      {
+        "id": "a-medida",
+        "category": "software",
+        "title": "Software Empresarial a Medida",
+        "desc": "Sistemas core diseñados desde tus procesos reales, no configurados sobre plantillas genéricas.",
+        "highlight": "Adaptado 100% a tu operación"
+      },
+      {
+        "id": "servicios-b2b",
+        "category": "software",
+        "title": "Servicios Profesionales B2B",
+        "desc": "Gestión de proyectos, timesheets, facturación de servicios y reporting ejecutivo para firmas y consultoras.",
+        "highlight": "Gestión operativa y reportes"
+      },
+      {
+        "id": "portales-clientes",
+        "category": "software",
+        "title": "Dashboards Ejecutivos y Portales",
+        "desc": "Dashboards ejecutivos y herramientas B2B con roles, permisos y flujos de aprobación adaptados a tu operación.",
+        "highlight": "Roles granulares y flujos de aprobación"
+      }
+    ]
+  },
+  "operation": {
+    "kicker": "Cómo operamos",
+    "title": "Aplicaciones web empresariales",
+    "subtitle": "Portales internos, dashboards ejecutivos y herramientas B2B con roles, permisos y flujos de aprobación adaptados a su operación.",
+    "features": [
+      {
+        "id": "modulos",
+        "title": "Módulos por área con permisos granulares",
+        "desc": "Cada área ve solo lo que necesita: roles, scopes y visibilidad controlada desde la base."
+      },
+      {
+        "id": "flujos",
+        "title": "Flujos de aprobación y trazabilidad",
+        "desc": "Toda acción queda registrada y los cambios críticos pasan por el flujo de aprobación correcto."
+      },
+      {
+        "id": "reportes",
+        "title": "Reportes exportables y filtros avanzados",
+        "desc": "Datos accionables con exportación a los formatos que usa tu equipo y filtros sobre toda la información."
+      }
+    ]
+  },
+  "pillars": {
+    "kicker": "Nuestros pilares",
+    "title": "Cuatro pilares de ingeniería",
+    "subtitle": "Cada proyecto se construye sobre una base que protege tu inversión desde el primer sprint.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Arquitectura orientada al negocio",
+        "desc": "Diseñamos dominios, módulos y contratos de datos alineados a procesos reales — no pantallas sueltas sin lógica de empresa.",
+        "points": ["Mapa de dominios y bounded contexts", "Diagrama de integraciones y flujos críticos", "Documento de decisiones arquitectónicas (ADR)"]
+      },
+      {
+        "num": "02",
+        "title": "Seguridad y gobernanza",
+        "desc": "Roles, permisos, auditoría de acciones y buenas prácticas OWASP desde el diseño — especialmente en sistemas con datos sensibles.",
+        "points": ["Modelo RBAC/ABAC por rol de empresa", "Políticas de autenticación y sesión", "Checklist de seguridad pre-producción"]
+      },
+      {
+        "num": "03",
+        "title": "DevOps y entrega continua",
+        "desc": "Pipelines CI/CD, ambientes staging/production, observabilidad y despliegues controlados para iterar sin romper operación.",
+        "points": ["Pipeline automatizado con tests y lint", "Monitoreo, logs y alertas en producción", "Runbook de despliegue y rollback"]
+      },
+      {
+        "num": "04",
+        "title": "Calidad y mantenibilidad",
+        "desc": "Código tipado, revisiones, cobertura en flujos críticos y documentación técnica para que su equipo interno pueda evolucionar el sistema.",
+        "points": ["Estándares de código y convenciones", "Tests en módulos de negocio críticos", "Handoff técnico y capacitación al equipo"]
+      }
+    ]
+  },
+  "methodology": {
+    "kicker": "Metodología",
+    "title": "Desarrollo de software en cuatro fases",
+    "subtitle": "Transparencia total: cada fase tiene entregables, ambientes y métricas acordadas con su equipo directivo.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Discovery y definición de alcance",
+        "desc": "Mapeamos procesos, usuarios, integraciones y KPIs. Priorizamos módulos por impacto operativo y definimos MVP con inversión fija.",
+        "deliverable": "Blueprint en 5 días hábiles"
+      },
+      {
+        "num": "02",
+        "title": "Arquitectura y diseño técnico",
+        "desc": "Definimos stack, modelos de datos, contratos de API, seguridad y plan de despliegue. Todo validado antes de escribir código productivo.",
+        "deliverable": "ADR y diagramas aprobados"
+      },
+      {
+        "num": "03",
+        "title": "Desarrollo en sprints",
+        "desc": "Entregas incrementales en staging con demos quincenales, tests en flujos críticos y feedback continuo de stakeholders.",
+        "deliverable": "Releases parciales cada 2 semanas"
+      },
+      {
+        "num": "04",
+        "title": "QA, despliegue y evolución",
+        "desc": "Pruebas integrales, hardening de seguridad, go-live controlado y roadmap de mejoras con monitoreo post-lanzamiento.",
+        "deliverable": "Go-live con runbook y SLA"
+      }
+    ]
+  },
+  "stack": {
+    "kicker": "Nuestro stack",
+    "title": "Tecnología probada en producción",
+    "subtitle": "Herramientas modernas y estándares de la industria para construir sistemas que escalan.",
+    "groups": [
+      { "id": "frontend", "title": "Frontend", "items": ["React 19", "TypeScript", "Vite", "TailwindCSS"] },
+      { "id": "backend", "title": "Backend", "items": ["Node.js", "Express", "PostgreSQL", "GraphQL"] },
+      { "id": "infra", "title": "Infraestructura", "items": ["Docker", "Kubernetes", "AWS/GCP", "Cloudflare"] },
+      { "id": "devops", "title": "DevOps", "items": ["GitHub Actions", "Terraform", "Observabilidad", "CI/CD"] },
+      { "id": "quality", "title": "Calidad", "items": ["Vitest", "Playwright", "ESLint", "SonarQube"] }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Conversemos sobre tu proyecto",
+    "subtitle": "Cuéntanos tu operación y te propondremos un plan con alcance, tiempos e inversión.",
+    "name": "Nombre",
+    "email": "Email corporativo",
+    "company": "Empresa",
+    "industry": "Industria",
+    "message": "Cuéntanos sobre tu proyecto",
+    "submit": "Enviar solicitud",
+    "placeholderIndustry": "Selecciona una industria",
+    "success": "¡Gracias! Te contactaremos dentro de 24 horas hábiles.",
+    "error": "Ocurrió un error. Inténtalo de nuevo o escríbenos directamente.",
+    "note": "Tu información está protegida. Solo la usamos para responder tu solicitud."
+  },
+  "footer": {
+    "tagline": "Desarrollo de software empresarial a medida. Arquitectura, seguridad y entrega continua para acelerar el crecimiento de tu empresa.",
+    "links": "Enlaces",
+    "services": "Servicios",
+    "careers": "Talento",
+    "contact": "Contacto",
+    "domain": "contacto@datatech-ai.org",
+    "hrDomain": "hr@datatech.ai",
+    "rights": "Todos los derechos reservados."
+  },
+  "careers": {
+    "kicker": "Carreras y Talento",
+    "title": "Únete a nuestro equipo",
+    "quote": "En DataTech siempre estamos buscando personas talentosas y dedicadas a quienes les encante asumir retos y generar trabajo de alta calidad.",
+    "ctaSubtitle": "Si te identificas con esto, no dudes en contactarnos o enviarnos tu CV a hr@datatech.ai. ¡Esperamos saber de ti!",
+    "cta": "Enviar CV a hr@datatech.ai",
+    "perks": [
+      {
+        "title": "Ingeniería de alto impacto",
+        "desc": "Construye software empresarial a medida para desafíos operativos del mundo real."
+      },
+      {
+        "title": "Crecimiento y maestría",
+        "desc": "Trabaja junto a arquitectos experimentados con stacks modernos y estándares de ingeniería rigurosos."
+      },
+      {
+        "title": "Cultura de excelencia",
+        "desc": "Colabora en una cultura que valora la arquitectura limpia, la calidad de código y el talento comprometido."
+      }
+    ]
+  }
+}

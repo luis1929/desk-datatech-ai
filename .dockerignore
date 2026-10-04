@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+.next/
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.local
+.env.production
+!.env.example
+
+# Development
+*.log
+*.test.*
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+.cursorrules
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Coolify / CI
+.context/
+.agent/
+.opencode/
+
+# Test
+test-results/
+coverage/
+
+# Logs
+*.log
+logs/

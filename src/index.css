@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f0f5fa;
+  --color-primary-100: #dce9f4;
+  --color-primary-200: #bcd4e9;
+  --color-primary-300: #93b8d9;
+  --color-primary-400: #5f92c2;
+  --color-primary-500: #3a74a9;
+  --color-primary-600: #24608f;
+  --color-primary-700: #1a4d75;
+  --color-primary-800: #0f3a5c;
+  --color-primary-900: #062a51;
+  --color-primary-950: #041a33;
+
+  --color-gold-300: #e8c887;
+  --color-gold-400: #d9ad5c;
+  --color-gold-500: #c99a42;
+  --color-gold-600: #ab7f32;
+  --color-gold-700: #8a6226;
+
+  --color-ink-900: #0a1626;
+  --color-ink-700: #1e2f44;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Sora', 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-glow: pulseGlow 3s ease-in-out infinite;
+  --animate-slide-up: slideUp 0.7s ease-out forwards;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-14px) rotate(1.5deg); }
+  66% { transform: translateY(-8px) rotate(-1deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 24px rgba(36, 96, 143, 0.35); }
+  50% { box-shadow: 0 0 52px rgba(217, 173, 92, 0.45); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f7fafc;
+  color: var(--color-ink-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(120deg, #c99a42, #e8c887, #ab7f32);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid-pattern {
+  background-image:
+    linear-gradient(to right, rgba(6, 42, 81, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 42, 81, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.hero-gradient {
+  background: radial-gradient(1200px 600px at 80% -10%, rgba(217, 173, 92, 0.12), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(36, 96, 143, 0.25), transparent 55%),
+    #041a33;
+}

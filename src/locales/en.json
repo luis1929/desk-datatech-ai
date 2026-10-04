@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "services": "Services",
+    "industries": "Industries",
+    "pillars": "Pillars",
+    "methodology": "Methodology",
+    "stack": "Stack",
+    "careers": "Careers",
+    "contact": "Contact",
+    "cta": "Book a call"
+  },
+  "hero": {
+    "badge": "Custom Enterprise Software Development",
+    "title1": "Enterprise",
+    "title2": "software",
+    "title3": "built for your business",
+    "subtitle": "Scalable architectures, secure integrations and solutions designed to optimize processes and accelerate your company's growth.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "See methodology",
+    "stats": {
+      "projects": "Projects delivered",
+      "sprints": "Biweekly demos",
+      "golive": "Days to your MVP",
+      "industries": "Industries"
+    },
+    "pillars": [
+      "Business-driven architecture",
+      "Security and governance",
+      "DevOps and continuous delivery",
+      "Quality and maintainability"
+    ]
+  },
+  "trust": {
+    "label": "Solutions for industries that demand rigor"
+  },
+  "industries": {
+    "kicker": "Industries",
+    "title": "Software development by industry",
+    "subtitle": "Custom systems built around your operational complexity, regulation and existing stack — no sector-generic templates.",
+    "items": [
+      { "id": "manufactura", "title": "Manufacturing", "desc": "Production traceability, inventory control and resource planning that align plant and office." },
+      { "id": "logistica", "title": "Logistics", "desc": "Route, operator and warehouse management with real-time visibility across every link of the chain." },
+      { "id": "b2b", "title": "B2B", "desc": "Wholesale commerce portals, orders and invoicing that reduce friction between supplier and customer." },
+      { "id": "salud", "title": "Healthcare", "desc": "Systems with clinical traceability, granular permissions and sensitive-data regulatory compliance." },
+      { "id": "fintech", "title": "Fintech", "desc": "Collections, reconciliation and auditable financial reporting modules with banking-grade security." },
+      { "id": "retail-b2b", "title": "B2B Retail", "desc": "Catalogs, customer-specific pricing and automatic replenishment for wholesale operations." }
+    ]
+  },
+  "services": {
+    "kicker": "What We Do",
+    "title": "Artificial Intelligence & Enterprise Solutions",
+    "subtitle": "From no-code contextual chatbots and predictive AI models to enterprise core platforms that run your operation.",
+    "aiCategory": "Artificial Intelligence & Data Analytics",
+    "softwareCategory": "Custom Enterprise Software",
+    "items": [
+      {
+        "id": "chatbot",
+        "category": "ai",
+        "title": "Chatbots & Conversational AI",
+        "desc": "We developed a platform for quick and easy creation of contextual chatbots without writing any code. Alternatively, we build fully customized chatbots tailored to your exact needs.",
+        "highlight": "No-code platform & customized AI bots"
+      },
+      {
+        "id": "ai",
+        "category": "ai",
+        "title": "Artificial Intelligence & Data Science",
+        "desc": "Experts in Machine Learning, Deep Learning and Natural Language Processing. We undertake Data Science and Analytics to unlock insights, predictions and recommendations for competitive advantage.",
+        "highlight": "Machine Learning, Deep Learning & NLP"
+      },
+      {
+        "id": "social-listening",
+        "category": "ai",
+        "title": "Social Listening & Trend Intelligence",
+        "desc": "Powered by our proprietary language library, our tool listens to the public and detects trends, alerting you to potential PR crises while monitoring competitor activity and pricing.",
+        "highlight": "Proprietary NLP engine & crisis alerts"
+      },
+      {
+        "id": "image-processing",
+        "category": "ai",
+        "title": "Image & Document Processing",
+        "desc": "Process various media types including images and documents for facial recognition, people counting, and automated vision tasks to power smarter decision-making.",
+        "highlight": "Facial recognition & media computer vision"
+      },
+      {
+        "id": "portales-b2b",
+        "category": "software",
+        "title": "B2B Portals with Traceability",
+        "desc": "Customer portals with orders, invoicing, history and full traceability across the commercial cycle.",
+        "highlight": "End-to-end commercial traceability"
+      },
+      {
+        "id": "a-medida",
+        "category": "software",
+        "title": "Custom Enterprise Software",
+        "desc": "Core systems designed from your real processes, not configured over generic templates.",
+        "highlight": "Tailored to your operation"
+      },
+      {
+        "id": "servicios-b2b",
+        "category": "software",
+        "title": "Professional B2B Services",
+        "desc": "Project management, timesheets, service invoicing and executive reporting for firms and consultancies.",
+        "highlight": "Operational management & reporting"
+      },
+      {
+        "id": "portales-clientes",
+        "category": "software",
+        "title": "Executive Dashboards & Portals",
+        "desc": "Executive dashboards and B2B tools with roles, permissions and approval flows adapted to your operation.",
+        "highlight": "Granular roles & approval flows"
+      }
+    ]
+  },
+  "operation": {
+    "kicker": "How we operate",
+    "title": "Enterprise web applications",
+    "subtitle": "Internal portals, executive dashboards and B2B tools with roles, permissions and approval flows adapted to your operation.",
+    "features": [
+      {
+        "id": "modulos",
+        "title": "Area modules with granular permissions",
+        "desc": "Each area only sees what it needs: roles, scopes and controlled visibility from the ground up."
+      },
+      {
+        "id": "flujos",
+        "title": "Approval flows and traceability",
+        "desc": "Every action is recorded and critical changes go through the right approval flow."
+      },
+      {
+        "id": "reportes",
+        "title": "Exportable reports and advanced filters",
+        "desc": "Actionable data with exports in the formats your team uses and filters across all information."
+      }
+    ]
+  },
+  "pillars": {
+    "kicker": "Our pillars",
+    "title": "Four engineering pillars",
+    "subtitle": "Every project is built on a foundation that protects your investment from the very first sprint.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Business-driven architecture",
+        "desc": "We design domains, modules and data contracts aligned with real processes — not disconnected screens without business logic.",
+        "points": ["Domain map and bounded contexts", "Integration and critical flow diagrams", "Architecture Decision Records (ADR)"]
+      },
+      {
+        "num": "02",
+        "title": "Security and governance",
+        "desc": "Roles, permissions, action auditing and OWASP best practices from design — especially for sensitive-data systems.",
+        "points": ["Company-role RBAC/ABAC model", "Authentication and session policies", "Pre-production security checklist"]
+      },
+      {
+        "num": "03",
+        "title": "DevOps and continuous delivery",
+        "desc": "CI/CD pipelines, staging/production environments, observability and controlled deployments to iterate without breaking operations.",
+        "points": ["Automated pipeline with tests and lint", "Production monitoring, logs and alerts", "Deployment and rollback runbook"]
+      },
+      {
+        "num": "04",
+        "title": "Quality and maintainability",
+        "desc": "Typed code, reviews, critical-flow coverage and technical documentation so your internal team can evolve the system.",
+        "points": ["Code standards and conventions", "Tests on critical business modules", "Technical handoff and team training"]
+      }
+    ]
+  },
+  "methodology": {
+    "kicker": "Methodology",
+    "title": "Four-phase software development",
+    "subtitle": "Total transparency: every phase has deliverables, environments and metrics agreed with your management team.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Discovery and scope definition",
+        "desc": "We map processes, users, integrations and KPIs. We prioritize modules by operational impact and define an MVP with fixed investment.",
+        "deliverable": "Blueprint in 5 business days"
+      },
+      {
+        "num": "02",
+        "title": "Architecture and technical design",
+        "desc": "We define stack, data models, API contracts, security and rollout plan. All validated before writing production code.",
+        "deliverable": "Approved ADR and diagrams"
+      },
+      {
+        "num": "03",
+        "title": "Sprint development",
+        "desc": "Incremental staging releases with biweekly demos, critical-flow tests and continuous stakeholder feedback.",
+        "deliverable": "Partial releases every 2 weeks"
+      },
+      {
+        "num": "04",
+        "title": "QA, deployment and evolution",
+        "desc": "Comprehensive testing, security hardening, controlled go-live and an improvement roadmap with post-launch monitoring.",
+        "deliverable": "Go-live with runbook and SLA"
+      }
+    ]
+  },
+  "stack": {
+    "kicker": "Our stack",
+    "title": "Technology proven in production",
+    "subtitle": "Modern tools and industry standards to build systems that scale.",
+    "groups": [
+      { "id": "frontend", "title": "Frontend", "items": ["React 19", "TypeScript", "Vite", "TailwindCSS"] },
+      { "id": "backend", "title": "Backend", "items": ["Node.js", "Express", "PostgreSQL", "GraphQL"] },
+      { "id": "infra", "title": "Infrastructure", "items": ["Docker", "Kubernetes", "AWS/GCP", "Cloudflare"] },
+      { "id": "devops", "title": "DevOps", "items": ["GitHub Actions", "Terraform", "Observability", "CI/CD"] },
+      { "id": "quality", "title": "Quality", "items": ["Vitest", "Playwright", "ESLint", "SonarQube"] }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Tell us about your operation and we'll propose a plan with scope, timeline and investment.",
+    "name": "Name",
+    "email": "Corporate email",
+    "company": "Company",
+    "industry": "Industry",
+    "message": "Tell us about your project",
+    "submit": "Send request",
+    "placeholderIndustry": "Select an industry",
+    "success": "Thank you! We'll contact you within 24 business hours.",
+    "error": "Something went wrong. Try again or write to us directly.",
+    "note": "Your information is protected. We only use it to respond to your request."
+  },
+  "footer": {
+    "tagline": "Custom enterprise software development. Architecture, security and continuous delivery to accelerate your company's growth.",
+    "links": "Links",
+    "services": "Services",
+    "careers": "Careers",
+    "contact": "Contact",
+    "domain": "contacto@datatech-ai.org",
+    "hrDomain": "hr@datatech.ai",
+    "rights": "All rights reserved."
+  },
+  "careers": {
+    "kicker": "Careers & Talent",
+    "title": "Join Our Team",
+    "quote": "We at DataTech are always looking for talented, dedicated people who love to take on challenges and produce high quality work.",
+    "ctaSubtitle": "If that sounds like you, please don't hesitate to contact us or send us your CV to hr@datatech.ai. We look forward to hearing from you.",
+    "cta": "Send CV to hr@datatech.ai",
+    "perks": [
+      {
+        "title": "High-Impact Engineering",
+        "desc": "Build mission-critical custom enterprise software for real-world operational challenges."
+      },
+      {
+        "title": "Growth & Mastery",
+        "desc": "Work alongside experienced architects with modern tech stacks and rigorous engineering practices."
+      },
+      {
+        "title": "Quality-First Culture",
+        "desc": "Collaborate in a culture that values clean architecture, code quality, and dedicated talent."
+      }
+    ]
+  }
+}
