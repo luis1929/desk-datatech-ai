@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  desk-datatech:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: desk-datatech-ai
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

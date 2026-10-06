@@ -1,48 +1,19 @@
-# ==============================================================================
-# DATATECH AI — Multi-stage Dockerfile
-# ==============================================================================
-# Stage 1: Dependencies
-# Stage 2: Build
-# Stage 3: Nginx production
-# ==============================================================================
+# Etapa 1: Build
+FROM node:22-alpine AS builder
 
-# ─── Stage 1: Dependencies ──────────────────────────────────────────
-FROM node:20-alpine AS deps
 WORKDIR /app
-COPY package.json package-lock.json ./
-RUN npm ci --prefer-offline
 
-# ─── Stage 2: Build ─────────────────────────────────────────────────
-FROM node:20-alpine AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+COPY package*.json ./
+RUN npm ci
+
 COPY . .
 RUN npm run build
 
-# ─── Stage 3: Nginx ─────────────────────────────────────────────────
-FROM nginx:alpine AS runner
+# Etapa 2: Production
+FROM nginx:alpine
 
-# Copy built files
 COPY --from=builder /app/dist /usr/share/nginx/html
-
-# Nginx config
-COPY <<EOF /etc/nginx/conf.d/default.conf
-server {
-    listen 80;
-    server_name _;
-    root /usr/share/nginx/html;
-    index index.html;
-
-    location / {
-        try_files \$uri \$uri/ /index.html;
-    }
-
-    location /assets {
-        expires 1y;
-        add_header Cache-Control "public, immutable";
-    }
-}
-EOF
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
